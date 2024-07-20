@@ -1,0 +1,15 @@
+﻿<Window x:Class="EccGuiWpf.info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EccGuiWpf"
+        mc:Ignorable="d"
+        Title="info" Height="416" Width="786"
+        Background="#1f1f21"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Label Content="Za začetek komuniciranja v vpisna polja vpišemo IP naslov računalnika* ter ime uporabnika s katerim želimo komunicirati. &#xA; &#xD;&#xA; Nato pritisnemo gumb »Dodaj«, da uporabnika dodamo v imenik. Ko je uporabnik enkrat v imeniku, za&#xD;&#xA; vzpostavite povezave le kliknemo na njegovo ime ter se podatki avtomatsko uporabijo. &#xA; &#xA; Na koncu pritisnemo gumb »Poveži«, ki vzpostavi povezavo.  &#xD;&#xA;&#xD;&#xA;Z gumbom »Več« lahko spremenimo uporabnikovo ime, z gumbom »Shrani« pa spremembe shranimo. &#xD;&#xA;&#xD;&#xA;(*) – za pridobitev IP naslova prižgemo program z imenom »CMD« v katerem vpišemo komando&#xD;&#xA; 'ip config' ter stisnemo enter. &#xD;&#xA;&#xD;&#xA;Izpiše se mnogo podatkov vendar pomemben je le ta kjer piše IPv4. Naslov ki izgleda približno tako&#xD;&#xA; (192.168.0.1) kopiramo ter ga vpišemo v zahtevano polje. &#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="768" Height="368" Background="{x:Null}" FontSize="16" Margin="0,22,0,0" />
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="EccGuiWpf.infoChat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EccGuiWpf"
+        mc:Ignorable="d"
+        Title="infoChat" Height="289" Width="800"
+        Background="#1f1f21"
+        ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Za začetek pogovora v vpisno polje na dnu okna vpišemo željeno sporočilo. S pritiskom na gumb »Pošlji« se sporočilo pošlje preko omrežja &#xD;&#xA;in prikaže na zaslonu. &#xD;&#xA;&#xD;&#xA;V zgornjem delu okna se izpisujejo vsa sporočila, ki so bila poslana med uporabnikoma. Ob sporočilih, ki jih pošiljate vi bo prikazano &#xD;&#xA;ime »Jaz«, poleg sporočil ki pa jih pošilja sogovorec bo izpisano njegovo ime*.&#xD;&#xA;&#xD;&#xA;Z pritiskom na gumb »Izhod« končate pogovor. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(*) – če uporabnik s katerim komunicirate ni shranjen v vašem imeniku, se bo ob njegova sporočila izpisal uporabnik&#xD;&#xA; »Neznanec«.  &#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Center" Height="254" Width="780" Foreground="White" FontSize="14"/>
+
+    </Grid>
+</Window>
